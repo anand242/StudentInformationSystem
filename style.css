@@ -1,0 +1,264 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+body{
+	overflow: auto;
+	
+}
+*{
+	margin:0;
+	padding: 0;
+	text-decoration: none;
+	list-style: none;
+}
+.sidebar_menu{
+	position: fixed;
+	width: 250px;
+	
+	margin-left: 0px;
+	
+	height: 100vh;
+	background-color: rgba(17,17,17,0.9);
+    max-height: 100vh;
+    opacity: 0.9;
+    transition: all;
+}
+.boxed_item{
+	font-family: 'Open Sans';
+	font-weight: 400;
+	padding:10px 20px;
+	display: inline-block;
+	border: solid 2px white;
+	box-sizing: border-box;
+	font-size: 22px;
+	color: red;
+    font-weight: 1000;
+	text-align: center;
+	margin-top: 70px;
+
+}
+.boxed_image{
+
+	width: 30px;
+	height: 30px;
+	padding-right: 3px;
+	padding-left:0;
+
+
+}
+.logo_bold{
+   padding:10;
+}
+.logo_title{
+	color: white;
+	font-family: 'Open Sans';
+	font-weight: 200;
+	font-size: 10px;
+	text-align: center;
+
+	padding:5px;
+
+}
+.nav_selection{
+	margin: 20px 0;
+	display: block;
+	width: 200px;
+	margin-left: 25px;
+	padding-bottom: 5px;
+}
+.nav_item{
+	font-weight: 200;
+	font-family: 'Open Sans';
+	color: white;
+	padding :12px 0;
+	padding-bottom: 15px;	
+	box-sizing: border-box;;
+	font-size: 14px;
+	color: #D8D8D8;
+	border-bottom: solid 1px #D8D8D8;
+	transition: all 0.3s ease-in-out;
+	cursor: pointer;
+
+}
+.nav_item:hover{
+	background-color: white;
+      color: green;
+      padding-left: 10px;
+
+}
+.boxed_signup{
+	font-size: 12px;
+	color: #D8D8D8;
+	width: 200px;
+	transition: all 0.3s ease-in-out;
+	cursor: pointer;
+	border-width: 1px;
+	margin: 0 0 20px 0;
+}
+.boxed_signup:hover{
+      background-color: white;
+      color: #111;
+      transition: all 0.3s ease-in-out;
+}
+.data{   
+    background-color: lightgray;
+	    
+	
+	margin-left: 250px;
+	margin-right: 0px;
+	overflow: auto;
+	height: 100vh;
+	
+    max-height: 100vh;
+    opacity: 2;
+    transition: all;
+
+}
+.myabout{
+	font-size: 20px;
+	padding: 0px;
+
+}
+.search_box{
+	text-align: center;
+	padding-top: 250px;
+
+
+}
+.hometheme{
+	padding-left: 100px;
+	padding-top: 50px;
+}
+.home_image{
+	width: 900px;
+	height: 250px;
+	padding-top: 100px;
+}
+.box{
+	font-family: 'Open Sans';
+	font-weight: 400;
+	padding:10px 20px;
+	display: inline-block;
+	border: solid 2px green;
+	box-sizing: border-box;
+	font-size: 22px;
+	color: red;
+    font-weight: 1000;
+	text-align: center;
+	margin-top: 100px;
+	padding-right: 10px;
+
+}
+.boxed_student{
+	font-size: 12px;
+	color: black;
+	width: 200px;
+	transition: all 0.3s ease-in-out;
+	cursor: pointer;
+	border-width: 1px;
+	padding-right: 20px;
+}
+
+.boxed_student:hover{
+      background-color: red;
+      color: #111;
+      transition: all 0.3s ease-in-out;
+}
+
+
+.data2{
+	 background-color: lightgray;
+	position: fixed;
+      
+	
+	margin-left: 250px;
+	overflow: hidden;
+	height: 100vh;
+	padding-top: 50%;
+	text-align: center;
+    max-height: 100vh;
+    opacity: 2;
+    transition: all;
+}
+
+.search {
+  
+  position: relative
+}
+
+.searchTerm {
+  float: left;
+  
+  border: 2px solid #00B4CC;
+  padding: 5px;
+  height: 40px;
+  border-radius: 5px;
+  outline: none;
+  color: #9DBFAF;
+}
+
+.searchTerm:focus{
+  color: #00B4CC;
+}
+
+.searchButton {
+  position: absolute;  
+  right: -90px;
+  width: 85px;
+  height: 40px;
+  border: 1px solid #00B4CC;
+  background: #00B4CC;
+  text-align: center;
+  color: #fff;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 50px;
+}
+
+/*Resize the wrap to see the search bar change!*/
+.searchbutton{
+	background-color: green;
+  padding-right: 20px;
+  padding-left: 0px;
+}
+.searchname{
+	color: black;
+}
+
+.id1{
+	height: 30px;
+	width: 30px;
+	padding-right: 30px;
+}
+
+.enter{
+	padding-left: 20px;
+	background-color: red;
+}
+input[type=text] {
+    width: 130px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url('searchicon.png');
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+.tr1{
+	border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+.inner{
+
+			width: 50%;
+			height: 50%;
+			top:50%;
+			left:50%;
+			position: relative;
+			background:orange;
+		}
